@@ -30,7 +30,7 @@ services:
       - DB_PORT=3306
       - DB_PASSWORD=root
       - BROADCAST_URI=redis://redis:6379
-      - CHAIN_ID=polkadot
+      - CHAIN_ID=bittensor
       - SENTRY_PROJECT_NAME=explorer-polling-v2
       - SENTRY_SERVER_NAME=polkadapt
       - SENTRY_DSN=
@@ -67,7 +67,7 @@ services:
       - BACKEND_CORS_ORIGINS=[]
       - BROADCAST_URI=redis://redis:6379
       - API_SQLA_URI=mysql+pymysql://root:root@mysql:3306/explorer_api?charset=utf8mb4
-      - CHAIN_ID=polkadot
+      - CHAIN_ID=bittensor
       - SENTRY_PROJECT_NAME=explorer-api-v2
       - SENTRY_SERVER_NAME=polkadapt
       - SENTRY_DSN=
